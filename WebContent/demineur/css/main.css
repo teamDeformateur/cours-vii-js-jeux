@@ -1,0 +1,32 @@
+.fondRouge{
+    background-color: red;
+}
+
+.fondBlanc{
+    background-color: aqua;
+}
+
+.visible{
+    display: block;
+    visibility: visible;
+}
+
+.invisible {
+    display: none;
+    visibility: hidden;
+}
+
+table{
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+td{
+    padding: 0px;
+    width: 25px;
+    height: 25px;
+}
+
+td.mined{
+    background-image: url('../img/mine.png');
+}

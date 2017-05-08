@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Psycho-Test</title>
+<link rel="stylesheet" type="text/css" href="./css/main.css" />
+</head>
+<body>
+	<h1>Psycho-test</h1>
+	<div id="resultats" class="invisible">
+		<h2>Résultats</h2>
+		<article id="A" class="invisible">
+			<p>Vous êtes tout à fait équilibrée. Bravo !</p>
+		</article>
+		<article id="B" class="invisible">
+            <p>Nous vous conseillons de vous écouter davantage.</p>
+        </article>
+        <article id="C" class="invisible">
+            <p>Faites vous soigner.</p>
+        </article>
+	</div>
+	<form id="test" class="visible">
+		<fieldset id="question1" class="fondBlanc">
+			<legend>Question 1</legend>
+			<p>Un bel homme vous complimente dans la rue, vous :</p>
+			<input id="q1_a" type="radio" name="q1" value="a">Rougissez<br>
+			<input id="q1_b" type="radio" name="q1" value="b">Souriez<br>
+			<input id="q1_c" type="radio" name="q1" value="c">Courez
+		</fieldset>
+		<fieldset id="question2" class="fondBlanc">
+			<legend>Question 2</legend>
+			<p>Une copine a de plus beaux cheveux que vous, vous :</p>
+			<input id="q2_a" type="checkbox" name="q2_a" value="a">Lui
+			coupez<br> <input id="q2_b" type="checkbox" name="q2_b"
+				value="b">Lui teignez<br> <input id="q2_c"
+				type="checkbox" name="q2_c" value="c">Lui brulez
+		</fieldset>
+		<fieldset id="question3" class="fondBlanc">
+			<legend>Question 3</legend>
+			<p>Lorsque vous remplissez un psyho-test, vous êtes :</p>
+			<select name="q3" multiple>
+				<option value="a">Contente</option>
+				<option value="b">Impatiente</option>
+				<option value="c">Dégoutée</option>
+			</select>
+		</fieldset>
+		<input type="submit" value="Dis-moi qui je suis">
+	</form>
+	<script type="text/javascript" src="./js/psycho.js"></script>
+</body>
+</html>
