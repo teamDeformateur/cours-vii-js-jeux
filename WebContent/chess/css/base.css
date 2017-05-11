@@ -1,0 +1,79 @@
+@import "reset.css";
+
+
+/*
+ * Plateau
+ */
+#plateau {
+	width: 800px;
+	height: 800px;
+	border: 5px solid #888;
+	margin: 50px auto;
+}
+
+.case {
+	width: 12.5%;
+	height: 12.5%;
+	float: left;
+}
+.case.grise {
+	background: #ccc;
+}
+
+.piece {
+	width: 100%;
+	height: 100%;
+}
+.piece::before {
+	content: "";
+	display: block;
+	background: url("../img/pieces.png");
+	width: 28px;
+	height: 84px;
+	margin: 4px auto;
+}
+
+.pion::before {
+	background-position: 0 0;
+}
+.pion.noire::before {
+	background-position: 0 -83px;
+}
+
+.roi::before {
+	background-position: -28px 0;
+}
+.roi.noire::before {
+	background-position: -28px -83px;
+}
+
+.reine::before {
+	background-position: -66px 0;
+	width: 29px;
+}
+.reine.noire::before {
+	background-position: -66px -83px;
+}
+
+.fou::before {
+	background-position: -100px 0;
+}
+.fou.noire::before {
+	background-position: -100px -83px;
+}
+
+.tour::before {
+	background-position: -132px 0;
+	width: 32px;
+}
+.tour.noire::before {
+	background-position: -132px -83px;
+}
+
+.cavalier::before {
+	background-position: -169px 0;
+	width: 31px;
+}
+.cavalier.noire::before {
+	background-position: -169px -83px;
+}
