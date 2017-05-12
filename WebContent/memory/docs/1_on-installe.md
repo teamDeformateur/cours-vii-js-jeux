@@ -13,7 +13,7 @@ Le header et le plateau qui contient les cartes sont à créer directement en HT
 ### Cartes
 
 Les 28 cartes, qu'on appellera `.carte`, doivent être créées en javascript à l'aide d'une boucle.
-On *peut* les stocker chacun des éléments créés dans un array, puis ajouter cet array au plateau.
+On *peut* stocker chacun des éléments créés dans un array, puis ajouter cet array au plateau.
 
 Les `.carte` mesurent 100x100 pixels.
 
