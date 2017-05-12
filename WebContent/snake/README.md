@@ -1,8 +1,8 @@
-#snake
+# snake
 
 Ce dossier contient deux jeux snake. Le premier est un snake solo classique et le second est une version pour 2 joueurs.
 
-##Commandes
+## Commandes
 Snake noir
 - flèche droite : tourner à droite
 - flèche gauche : tourner à gauche
