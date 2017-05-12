@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+body{
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#txtr1{
+	width: 78px
+}
+#victoirerouge{
+	width: 60px; 
+	border: 3px solid red;
+}
+#txtr2{
+	width: 93px
+}
+#scorerouge{
+	width: 60px; 
+	border: 3px solid red;
+}
+
+#txtn1{
+	width: 78px
+}
+
+#victoirenoir{
+	width: 60px; 
+	border: 3px solid black;
+}
+#txtn2{
+	width: 93px
+}
+#scorenoir{
+	width: 60px; 
+	border: 3px solid black;
+}
+
+#bouton{
+	text-align: center;
+}
+#table{
+	margin: auto;
+}
+#debut{
+	text-align: center;
+}
