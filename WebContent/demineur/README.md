@@ -1,6 +1,6 @@
 # Démineur
 
-Démineur amélioré car vous incarner un démineur chargé de traverser un champ de mine. Hâtez-vous car les mines apparaissent chaque fois que vous faites un pas de plus ! Serez-vous à même de traverser sans heurts ?
+Démineur amélioré car vous incarnez un démineur chargé de traverser un champ de mine. Hâtez-vous car les mines apparaissent chaque fois que vous faites un pas de plus ! Serez-vous à même de traverser sans heurts ?
 
 ## Objectifs
 Réaliser un jeu du démineur quelque peu amélioré par rapport à la version d'origine.
