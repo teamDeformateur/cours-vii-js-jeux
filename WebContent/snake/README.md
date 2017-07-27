@@ -2,6 +2,16 @@
 
 Ce dossier contient deux jeux snake. Le premier est un snake solo classique et le second est une version pour 2 joueurs.
 
+## Indications
+* la grille sur laquelle évolue le serpent peut être un tableau `<table>` construit dynamiquement
+* le serpent se déplace d'un case vers l'avant toutes les 250ms (utilisation d'un intervalle)
+* les pommes apparaissent aléatoirement (Math.random)
+* les styles CSS peuvent être utilisés pour change le style des cases en fonction de leur état :
+  * vide
+  * pomme
+  * serpent
+
+
 ## Commandes
 Snake noir
 - flèche droite : tourner à droite
