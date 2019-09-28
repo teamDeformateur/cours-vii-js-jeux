@@ -17,4 +17,3 @@ Le fichier `base.css` contient déjà les classes permettant
 d'afficher les pièces, à condition d'utiliser les bonnes
 classes !
 
-Pour la création des cases, inspirez-vous de https://github.com/O-clock/challenge-echiquier-webdif :wink:
